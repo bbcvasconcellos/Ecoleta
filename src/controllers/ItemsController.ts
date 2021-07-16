@@ -1,5 +1,5 @@
 import  {Request, Response} from 'express';
-import knex from '../database/connection';// os dois .. diz que estamos saindo do atual folder e buscando em outro
+import knex from '../database/connection';
 
 
 class ItemsController {
